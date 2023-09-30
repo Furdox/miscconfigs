@@ -48,6 +48,7 @@ floating_modifier $mod
 
 ########## custom
 
+# Notice: colors are at the very bottom.
 
 # # mount LINACHAD
 # exec "sudo mkdir /media/furdox/d6db014a-1f96-46e9-8b15-22e313996d25"
@@ -235,4 +236,22 @@ bindsym $mod+r mode "resize"
 bar {
 	status_command /home/furdox/.local/bin/bumblebee-status -m cpu memory battery time \
 		pasink pasource -p time.format="%H:%M:%S" -t gruvbox-powerline
-}
+	colors {
+		background #00330
+		statusline #FFFFFF
+		separator #666666
+		focused_workspace #00CC01 #009901 #FFFFFF
+		active_workspace #333333 #5F676B #FFFFFF
+		inactive_workspace #333333 #222222 #888888
+		urgent_workspace #FF0000 #900000 #FFFFFF
+		binding_mode #2F343A #900000 #FFFFFF
+	}
+    }
+
+# Colors
+client.focused #66CB00 #017800 #FFFFFF #B500A3
+client.focused_inactive #333333 #465846 #FFE9DB #484E50
+client.unfocused #333333 #222222 #888888 #292E2F
+client.urgent #FF0000 #900000 #FFFFFF #900000
+client.placeholder #000000 #0C0C0C #FFFFFF #000000
+client.background #FFFFFF
