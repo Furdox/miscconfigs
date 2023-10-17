@@ -37,8 +37,10 @@ exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
@@ -61,7 +63,10 @@ exec "xrandr --output DP-0 --primary --mode 2560x1440 --rate 143.97 --output HDM
 # setup window colors
 # AT THE VERY BOTTOM OF THE FILE
 
-# start picom, the Compositor
+# set kb to canadian internationnal (FINALLY)
+exec "setxkbmap -layout ca -variant multix"
+
+# start picom, the Compositor. Config for it can be found at ~/.config/picom/picom.conf
 exec picom
 
 # restore last nitrogen background config
@@ -71,7 +76,7 @@ exec "nitrogen --restore"
 gaps outer 20px
 gaps inner 20px
 
-# start CopyQ since I use i3 config as my autoboot file xd
+# start CopyQ, I use i3 config as my autoboot file xd
 exec copyq
 
 # start blueman to have bluetooth in tray
@@ -89,6 +94,8 @@ bindsym Control+Print exec "shutter -s"
 bindsym Mod1+Print exec "shutter -w"
 # alt + shift = current window
 bindsym Mod1+Shift+Print exec "shutter -a"
+# shift = screen
+bindsym Shift+Print exec "shutter -a -f"
 # windows key = include mouse in fullscreen screenshot
 bindsym Mod4+Print exec "shutter -f -c"
 # windows key + control = include mouse in select region screenshot
@@ -272,3 +279,6 @@ client.unfocused #333333 #042205 #888888 #292E2F
 client.urgent #FF0000 #900000 #FFFFFF #900000
 client.placeholder #000000 #0C0C0C #FFFFFF #000000
 client.background #FFFFFF
+
+# rechange keyboard incase
+exec "setxkbmap -layout ca -variant multix"
