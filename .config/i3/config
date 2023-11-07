@@ -265,6 +265,8 @@ bar {
 	# status_command bumblebee-status -m playerctl thunderbird cpu memory kernel speedtest arch-update aur-update github weather uptime traffic battery redshift bluetooth datetime \
 	status_command bumblebee-status -m playerctl cpu memory kernel arch-update aur-update weather battery datetime \
 	pasink pasource -p time.format="%H:%M:%S" redshift.adjust="true" redshift.location="manual" redshift.lat="45.5" redshift.lon="-76" weather.showcity="false" -t iceberg-rainbow
+
+	font pango:Rubik,PowerlineSymbols,FontAwesome 9
 	
 	colors {
 		background #003300
