@@ -5,12 +5,14 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+alias ls='ls -a --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 #alias dir='dir --color=auto'
 #alias vdir='vdir --color=auto'
+
+alias nano='nano -m'
 
 PS1='[\u@\h \W]\$ '
 
@@ -59,10 +61,18 @@ function msdos_pwd
     echo $dir | tr '/' '\\'
 }
 
-export PS1='C:`msdos_pwd`> '
+export PS1='UwU:`msdos_pwd` >w< $ '
 
 echo 
-echo "Microsoft(R) Windows 95"
-echo "   (C)Copyright Microsoft Corp 1981-1996."
+echo 
+echo "Welcome to the Terminal!"
+echo 
+echo 
+# echo "Microsoft(R) Windows 95"
+# echo "   (C)Copyright Microsoft Corp 1981-1996."
 echo
+neofetch
+
+export PATH=/home/furdox/.local/bin:/usr/local/bin:/usr/bin:/var/lib/snapd/snap/bin
+export PATH=/home/furdox/.local/bin:/usr/local/bin:/usr/bin:/var/lib/snapd/snap/bin
 
