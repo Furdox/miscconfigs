@@ -1,0 +1,105 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+menuentry "Load / Reset this GRUB config"  {
+        insmod part_gpt
+        insmod btrfs
+        insmod ext2
+        set root='hd1,gpt1'
+        configfile /boot/grub/grub.cfg
+}
+
+menuentry "GParted Live GRUB config"  {
+        insmod part_gpt
+        insmod btrfs
+        insmod ext2
+        set root='hd0,gpt2'
+        configfile /boot/grub/grub.cfg
+}
+
+menuentry "Kubuntu 22.04 Installer GRUB config"  {
+        insmod part_gpt
+        insmod btrfs
+        insmod ext2
+        set root='hd0,gpt3'
+        configfile /boot/grub/grub.cfg
+}
+
+menuentry "Debian Installer GRUB config"  {
+        insmod part_gpt
+        insmod btrfs
+        insmod ext2
+        set root='hd0,gpt4'
+        configfile /boot/grub/grub.cfg
+}
+
+menuentry "Arch Installer GRUB config"  {
+        insmod part_gpt
+        insmod btrfs
+        insmod ext2
+        set root='hd0,gpt5'
+        configfile /boot/grub/grub.cfg
+}
+
+#####
+
+if [ ${grub_platform} == "efi" ]; then
+	menuentry 'UEFI Firmware Settings' --id 'uefi-firmware' {
+		fwsetup
+	}
+fi
+
+menuentry "System restart" {
+	echo "System rebooting..."
+	reboot
+}
+
+menuentry "System shutdown" {
+	echo "System shutting down..."
+	halt
+}
+
+menuentry "unverified UEFI Shell" {
+	insmod fat
+	insmod chain
+	search --no-floppy --set=root --file /shellx64.efi
+	chainloader /shellx64.efi
+}
+
+# TEMPLATE
+#menuentry "configfile hd0,gpt4"  {
+#       insmod part_gpt
+#       insmod btrfs
+#       insmod ext2
+#       set root='hd0,gpt4'
+#       configfile /boot/grub/grub.cfg
+#}
+
+#if [ "${grub_platform}" == "efi" ]; then
+#	menuentry "unverified Microsoft Windows Vista/7/8/8.1 UEFI/GPT" {
+#		insmod part_gpt
+#		insmod fat
+#		insmod chain
+#		search --no-floppy --fs-uuid --set=root $hints_string $fs_uuid
+#		chainloader /EFI/Microsoft/Boot/bootmgfw.efi
+#	}
+#fi
+
+# puffi theme
+insmod png
+set menu_color_normal=light-red/black
+set menu_color_highlight=green/light-cyan
+set color_normal=light-red/black
+set color_highlight=red/cyan
+#background_image -m stretch /data/bg/puffisidelow.png
+#WALLPAPER=/data/bg/puffisidelow.png
+
+#if background_image /data/bg/puffisidelow.png; then
+#  true
+#else
+#  set menu_color_normal=white/black
+#  set menu_color_highlight=black/light-gray
+#fi
