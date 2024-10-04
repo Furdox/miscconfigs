@@ -1,0 +1,26 @@
+* {
+    font-family: "Rubik" !important;
+}
+
+strong {
+ font-weight: 800 !important;
+}
+.channelAppLauncher_df39bd, .app-launcher-entrypoint, [aria-label="Envoyer un cadeau"], [aria-label="Ouvrir l'onglet des GIF"], [aria-label="Ouvrir le sélecteur d'autocollant"] {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    margin-left:0;
+}
+[aria-label="Open Translate Modal"] {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    margin-left:0;
+}
+[aria-label="Plus d'options"] {
+    padding:5px;
+}
+
+.footer_aa1bff {
+    display: none;
+}

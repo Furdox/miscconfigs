@@ -1,0 +1,71 @@
+@define-color fg_active #000000;
+@define-color fg_insensitive #989998;
+@define-color fg_normal #000000;
+@define-color fg_prelight #000000;
+@define-color fg_selected #000000;
+
+@define-color bg_active #00aaaa;
+@define-color bg_insensitive #fbfcfb;
+@define-color bg_normal #00aaaa;
+@define-color bg_prelight #eeddff;
+@define-color bg_selected #cc99ff;
+
+@define-color base_active #fbfcfb;
+@define-color base_insensitive #f9faf9;
+@define-color base_normal #fbfcfb;
+@define-color base_prelight #eeddff;
+@define-color base_selected #eeddff;
+
+@define-color text_active #000000;
+@define-color text_insensitive #000000;
+@define-color text_normal #000000;
+@define-color text_prelight #000000;
+@define-color text_selected #000000;
+
+@define-color bg_tooltip #ffeedd;
+
+* {
+    engine: xfce;
+    -xfce-smooth-edge: true;
+
+    padding: 1px;
+    color: @fg_normal;
+    background: @bg_normal;
+    border-color: darker(@bg_normal);
+    border-style: outset;
+    border-width: 0px;
+}
+        
+GtkWindow {
+    background: @base_normal;   
+}
+    
+*:active {
+    color: @fg_active;
+    background: @bg_active;
+    border-color: darker(@bg_active); 
+}
+
+*:insensitive {
+    color: @fg_insensitive;
+    background: @bg_insensitive;
+    border-color: darker(@bg_insensitive);
+}
+
+*:hover {
+    color: @fg_prelight;
+    background: @bg_prelight;
+    border-color: darker(@bg_prelight);
+}
+
+*:selected {
+    color: @fg_selected;
+    background: @bg_selected;
+    border-color: darker(@bg_selected);
+}
+
+.tooltip {
+    color: @fg_normal;
+    background: @bg_tooltip;
+    border-color: darker(@bg_tooltip);
+}

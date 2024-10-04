@@ -1,0 +1,133 @@
+﻿Illegal operation:
+Code: 6F8E1DC8h, flags: 00000001h, address: 7BC02677h
+Additional parameters: 00000002h
+
+Call path not available.
+
+Code bytes (7BC02677h):
+7BC02637h:  EC 54 8B 4D 08 8B 45 10 C7 45 B4 00 00 00 00 C7
+7BC02647h:  45 B8 30 26 C0 7B 8B 55 14 89 4D AC 8B 4D 0C 83
+7BC02657h:  E1 01 89 4D B0 85 C0 74 04 85 D2 75 24 C7 45 BC
+7BC02667h:  00 00 00 00 8D 45 AC 89 04 24 FF 15 84 4B CB 7B
+7BC02677h:  8B 5D FC 83 EC 04 C9 C2 10 00 8D B4 26 00 00 00
+7BC02687h:  00 B9 0F 00 00 00 39 C8 0F 47 C1 89 45 BC C1 E0
+7BC02697h:  02 8B 4C 02 FC 89 4C 05 BC 83 E8 01 83 F8 04 72
+7BC026A7h:  C3 83 E0 FC 31 C9 8B 1C 0A 89 5C 0D C0 83 C1 04
+
+Stack (01F5FE5Ch):
+01F5FE3Ch:  0035A780 01F5FC4C 7BF60C49 79FD35A0
+01F5FE4Ch:  79FC0000 01F5FEB0 7BC02677 01F5FE5C
+01F5FE5Ch:  6F8E1DC8 00000001 00000000 7BC02677
+01F5FE6Ch:  00000001 00000002 7BC02677 01F5FE7C
+01F5FE7Ch:  40010005 00000000 00000000 7BC02677
+01F5FE8Ch:  00000000 00000000 00000000 00000000
+01F5FE9Ch:  00000000 00000000 00000000 00000000
+01F5FEACh:  0035D460 01F5FED0 004DC7DC 6F8E1DC8
+01F5FEBCh:  00000001 00000001 01F5FECC 7B840157
+01F5FECCh:  00000002 01F5FF44 7BBFCB8F 00000000
+01F5FEDCh:  00000000 00000000 00000000 01F5FF94
+01F5FEECh:  7BC733B0 00000000 00000000 01F5FF44
+01F5FEFCh:  00000000 00000000 00000000 01F5FED4
+01F5FF0Ch:  7BBFCBD1 00000000 00000000 00000000
+01F5FF1Ch:  00000000 00000000 00000000 00000000
+01F5FF2Ch:  00000000 00000000 00000000 40010005
+01F5FF3Ch:  01F5FEE8 00000000 01F5FF50 7BF5F86A
+01F5FF4Ch:  00000000 01F5FF68 7BED8CE0 00000000
+01F5FF5Ch:  7BF848E3 7BF848E3 00000000 01F5FF80
+01F5FF6Ch:  7BF848E3 00000000 00000000 00000000
+
+Registers:
+EAX: 01F5FE5C, EBX: 0035D460, ECX: 00000002, EDX: 01F5FECC
+ESI: 00000000, EDI: 00000000, EBP: 01F5FEB0, ESP: 01F5FE5C
+
+Timestamp:
+16499ms
+
+Crash location:
+Module: kernelbase
+Offset: 12677h
+
+Loaded modules:
+foobar2000                       loaded at 00400000h - 00773000h
+ntdll                            loaded at 7BF30000h - 7BFEA000h
+kernel32                         loaded at 7BEB0000h - 7BF1E000h
+kernelbase                       loaded at 7BBF0000h - 7BE94000h
+comctl32                         loaded at 7BA80000h - 7BBD8000h
+advapi32                         loaded at 7BA20000h - 7BA62000h
+msvcrt                           loaded at 7B950000h - 7BA09000h
+sechost                          loaded at 7B920000h - 7B93E000h
+ucrtbase                         loaded at 7B820000h - 7B909000h
+gdi32                            loaded at 7B780000h - 7B810000h
+user32                           loaded at 7B5B0000h - 7B76F000h
+win32u                           loaded at 7B560000h - 7B592000h
+imm32                            loaded at 7B530000h - 7B54E000h
+winmm                            loaded at 7B450000h - 7B51C000h
+msacm32                          loaded at 7B410000h - 7B439000h
+ole32                            loaded at 7B330000h - 7B3F3000h
+combase                          loaded at 7B2D0000h - 7B31B000h
+rpcrt4                           loaded at 7B230000h - 7B2BC000h
+coml2                            loaded at 7B200000h - 7B214000h
+shlwapi                          loaded at 7B190000h - 7B1E3000h
+shcore                           loaded at 7B160000h - 7B178000h
+uxtheme                          loaded at 7B110000h - 7B14E000h
+shell32                          loaded at 7A7C0000h - 7B0F1000h
+oleaut32                         loaded at 7A6E0000h - 7A7A6000h
+zlib1                            loaded at 756C0000h - 756D9000h
+vcruntime140                     loaded at 7A690000h - 7A69B000h
+sqlite3                          loaded at 755E0000h - 756A1000h
+shared                           loaded at 755A0000h - 755C2000h
+imagehlp                         loaded at 7A550000h - 7A560000h
+dbghelp                          loaded at 7A4C0000h - 7A540000h
+comdlg32                         loaded at 7A3B0000h - 7A4AF000h
+winspool                         loaded at 7A360000h - 7A391000h
+compstui                         loaded at 7A330000h - 7A345000h
+msvcp140                         loaded at 7A230000h - 7A316000h
+msvcp140_atomic_wait             loaded at 7A210000h - 7A21B000h
+msimg32                          loaded at 7A1F0000h - 7A1FA000h
+oleacc                           loaded at 7A1B0000h - 7A1E0000h
+crypt32                          loaded at 7A0C0000h - 7A194000h
+bcrypt                           loaded at 7A090000h - 7A0A6000h
+winhttp                          loaded at 7A030000h - 7A075000h
+jsproxy                          loaded at 7A000000h - 7A016000h
+ws2_32                           loaded at 79FC0000h - 79FE9000h
+gdiplus                          loaded at 79F20000h - 79FA7000h
+mlang                            loaded at 79EE0000h - 79F07000h
+secur32                          loaded at 79EB0000h - 79ED0000h
+winex11                          loaded at 79E80000h - 79E97000h
+concrt140                        loaded at 79E40000h - 79E69000h
+kerberos                         loaded at 79E20000h - 79E2D000h
+
+Stack dump analysis:
+Address: 7BC02677h (kernelbase+12677h)
+Address: 7BC02677h (kernelbase+12677h)
+Address: 7BC02677h (kernelbase+12677h)
+Address: 004DC7DCh (foobar2000+DC7DCh)
+Address: 7B840157h (ucrtbase+20157h)
+Address: 7BBFCB8Fh (kernelbase+CB8Fh)
+Address: 7BC733B0h (kernelbase+833B0h)
+Address: 7BBFCBD1h (kernelbase+CBD1h)
+Address: 7BF5F86Ah (ntdll+2F86Ah)
+Address: 7BED8CE0h (kernel32+28CE0h)
+Address: 7BF848E3h (ntdll+548E3h)
+Address: 7BF848E3h (ntdll+548E3h)
+Address: 7BF848E3h (ntdll+548E3h)
+Address: 7BF85345h (ntdll+55345h)
+Address: 7BED8CD0h (kernel32+28CD0h), symbol: "BaseThreadInitThunk" (+0h)
+Address: 7BF5F850h (ntdll+2F850h), symbol: "__wine_ctrl_routine" (+0h)
+Address: 7BF99680h (ntdll+69680h)
+Address: 7BF536B0h (ntdll+236B0h)
+Address: 7BF852F6h (ntdll+552F6h)
+Address: 7BF848BCh (ntdll+548BCh), symbol: "RtlUserThreadStart" (+0h)
+Address: 7BF5F850h (ntdll+2F850h), symbol: "__wine_ctrl_routine" (+0h)
+Address: 00750000h (foobar2000+350000h)
+
+Environment:
+App: foobar2000 v2.1.6
+Arch: x86
+
+
+Machine specifications:
+OS: wine-9.18, on: Linux / 6.6.52-1-lts
+CPU: 12th Gen Intel(R) Core(TM) i5-12600K, features: MMX SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX LZCNT
+CPU threads: 16
+Audio: GA104 High Definition Audio Controller Digital Stereo (HDMI); Built-in Audio Analog Stereo; PulseAudio Output

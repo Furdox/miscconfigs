@@ -1,0 +1,224 @@
+﻿Illegal operation:
+Code: 6F8E1DC8h, flags: 00000001h, address: 7BC025F7h
+Additional parameters: 00000002h
+
+Call path not available.
+
+Code bytes (7BC025F7h):
+7BC025B7h:  EC 54 8B 4D 08 8B 45 10 C7 45 B4 00 00 00 00 C7
+7BC025C7h:  45 B8 B0 25 C0 7B 8B 55 14 89 4D AC 8B 4D 0C 83
+7BC025D7h:  E1 01 89 4D B0 85 C0 74 04 85 D2 75 24 C7 45 BC
+7BC025E7h:  00 00 00 00 8D 45 AC 89 04 24 FF 15 84 4B CB 7B
+7BC025F7h:  8B 5D FC 83 EC 04 C9 C2 10 00 8D B4 26 00 00 00
+7BC02607h:  00 B9 0F 00 00 00 39 C8 0F 47 C1 89 45 BC C1 E0
+7BC02617h:  02 8B 4C 02 FC 89 4C 05 BC 83 E8 01 83 F8 04 72
+7BC02627h:  C3 83 E0 FC 31 C9 8B 1C 0A 89 5C 0D C0 83 C1 04
+
+Stack (02D3FE5Ch):
+02D3FE3Ch:  017628E8 02D3FC4C 7BF60C49 793B1B02
+02D3FE4Ch:  79350000 02D3FEB0 7BC025F7 02D3FE5C
+02D3FE5Ch:  6F8E1DC8 00000001 00000000 7BC025F7
+02D3FE6Ch:  00000001 00000002 7BC025F7 02D3FE7C
+02D3FE7Ch:  40010005 00000000 00000000 7BC025F7
+02D3FE8Ch:  00000000 00000000 00000000 00000000
+02D3FE9Ch:  00000000 00000000 00000000 00000000
+02D3FEACh:  0035CFF0 02D3FED0 004DBD6C 6F8E1DC8
+02D3FEBCh:  00000001 00000001 02D3FECC 7B8402D7
+02D3FECCh:  00000002 02D3FF44 7BBFCB0F 00000000
+02D3FEDCh:  00000000 00000000 00000000 02D3FF94
+02D3FEECh:  7BC72CD0 00000000 00000000 02D3FF44
+02D3FEFCh:  00000000 00000000 00000000 02D3FED4
+02D3FF0Ch:  7BBFCB51 00000000 00000000 00000000
+02D3FF1Ch:  00000000 00000000 00000000 00000000
+02D3FF2Ch:  00000000 00000000 00000000 40010005
+02D3FF3Ch:  02D3FEE8 00000000 02D3FF50 7BF5F86A
+02D3FF4Ch:  00000000 02D3FF68 7BED8B60 00000000
+02D3FF5Ch:  7BF848F3 7BF848F3 00000000 02D3FF80
+02D3FF6Ch:  7BF848F3 00000000 00000000 00000000
+
+Registers:
+EAX: 02D3FE5C, EBX: 0035CFF0, ECX: 00000002, EDX: 02D3FECC
+ESI: 00000000, EDI: 00000000, EBP: 02D3FEB0, ESP: 02D3FE5C
+
+Timestamp:
+63373ms
+
+Crash location:
+Module: kernelbase
+Offset: 125F7h
+
+Loaded modules:
+foobar2000                       loaded at 00400000h - 00768000h
+ntdll                            loaded at 7BF30000h - 7BFEA000h
+kernel32                         loaded at 7BEB0000h - 7BF1E000h
+kernelbase                       loaded at 7BBF0000h - 7BE94000h
+comctl32                         loaded at 7BA80000h - 7BBD8000h
+advapi32                         loaded at 7BA20000h - 7BA62000h
+msvcrt                           loaded at 7B950000h - 7BA09000h
+sechost                          loaded at 7B920000h - 7B93E000h
+ucrtbase                         loaded at 7B820000h - 7B908000h
+gdi32                            loaded at 7B780000h - 7B80F000h
+user32                           loaded at 7B5B0000h - 7B76F000h
+win32u                           loaded at 7B560000h - 7B592000h
+imm32                            loaded at 7B530000h - 7B54E000h
+winmm                            loaded at 7B450000h - 7B51C000h
+msacm32                          loaded at 7B410000h - 7B439000h
+ole32                            loaded at 7B330000h - 7B3F3000h
+combase                          loaded at 7B2D0000h - 7B31B000h
+rpcrt4                           loaded at 7B230000h - 7B2BC000h
+coml2                            loaded at 7B200000h - 7B214000h
+shlwapi                          loaded at 7B190000h - 7B1E3000h
+shcore                           loaded at 7B160000h - 7B178000h
+uxtheme                          loaded at 7B110000h - 7B14D000h
+shell32                          loaded at 7A7D0000h - 7B0FF000h
+oleaut32                         loaded at 7A6F0000h - 7A7B6000h
+zlib1                            loaded at 7A6C0000h - 7A6D9000h
+vcruntime140                     loaded at 7A6A0000h - 7A6AB000h
+sqlite3                          loaded at 7A5C0000h - 7A681000h
+shared                           loaded at 7A580000h - 7A5A2000h
+imagehlp                         loaded at 7A560000h - 7A570000h
+dbghelp                          loaded at 7A4D0000h - 7A54F000h
+comdlg32                         loaded at 7A3C0000h - 7A4BF000h
+winspool                         loaded at 7A370000h - 7A3A1000h
+compstui                         loaded at 7A340000h - 7A355000h
+msvcp140                         loaded at 7A240000h - 7A326000h
+msimg32                          loaded at 7A220000h - 7A22A000h
+oleacc                           loaded at 7A1E0000h - 7A210000h
+crypt32                          loaded at 7A0F0000h - 7A1C5000h
+bcrypt                           loaded at 7A0C0000h - 7A0D6000h
+winhttp                          loaded at 7A060000h - 7A0A5000h
+jsproxy                          loaded at 7A030000h - 7A046000h
+ws2_32                           loaded at 79FF0000h - 7A019000h
+gdiplus                          loaded at 79F50000h - 79FE0000h
+mlang                            loaded at 79F10000h - 79F37000h
+secur32                          loaded at 79ED0000h - 79EF1000h
+winex11                          loaded at 79EA0000h - 79EB6000h
+concrt140                        loaded at 79E60000h - 79E89000h
+kerberos                         loaded at 79E40000h - 79E4D000h
+foo_dsp_eq                       loaded at 79DC0000h - 79E2C000h
+dwmapi                           loaded at 79D90000h - 79DA4000h
+foo_ui_std                       loaded at 79BD0000h - 79D75000h
+foo_input_std                    loaded at 799F0000h - 79BB8000h
+avcodec-fb2k-60                  loaded at 797D0000h - 799DC000h
+avutil-fb2k-58                   loaded at 795F0000h - 797B4000h
+avformat-fb2k-60                 loaded at 795B0000h - 795DC000h
+foo_freedb2                      loaded at 79560000h - 79599000h
+foo_unpack                       loaded at 794C0000h - 79541000h
+foo_fileops                      loaded at 79450000h - 794AC000h
+foo_dsp_std                      loaded at 79400000h - 7943B000h
+foo_converter                    loaded at 79350000h - 793E6000h
+atlthunk                         loaded at 79330000h - 7933A000h
+pp-uwp-interop                   loaded at 79310000h - 7931A000h
+vccorlib140                      loaded at 792B0000h - 792F3000h
+
+Stack dump analysis:
+Address: 7BC025F7h (kernelbase+125F7h)
+Address: 7BC025F7h (kernelbase+125F7h)
+Address: 7BC025F7h (kernelbase+125F7h)
+Address: 004DBD6Ch (foobar2000+DBD6Ch)
+Address: 7B8402D7h (ucrtbase+202D7h)
+Address: 7BBFCB0Fh (kernelbase+CB0Fh)
+Address: 7BC72CD0h (kernelbase+82CD0h)
+Address: 7BBFCB51h (kernelbase+CB51h)
+Address: 7BF5F86Ah (ntdll+2F86Ah)
+Address: 7BED8B60h (kernel32+28B60h)
+Address: 7BF848F3h (ntdll+548F3h)
+Address: 7BF848F3h (ntdll+548F3h)
+Address: 7BF848F3h (ntdll+548F3h)
+Address: 7BF85355h (ntdll+55355h)
+Address: 7BED8B50h (kernel32+28B50h), symbol: "BaseThreadInitThunk" (+0h)
+Address: 7BF5F850h (ntdll+2F850h), symbol: "__wine_ctrl_routine" (+0h)
+Address: 7BF995F0h (ntdll+695F0h)
+Address: 7BF536B0h (ntdll+236B0h)
+Address: 7BF85306h (ntdll+55306h)
+Address: 7BF848CCh (ntdll+548CCh), symbol: "RtlUserThreadStart" (+0h)
+Address: 7BF5F850h (ntdll+2F850h), symbol: "__wine_ctrl_routine" (+0h)
+Address: 00750000h (foobar2000+350000h)
+
+Environment:
+App: foobar2000 v2.1.5
+Arch: x86
+UI: Default User Interface 2.1.5
+
+Components:
+Core (2024-07-11 20:51:18 UTC)
+    foobar2000 core 2.1.5
+foo_converter (2024-07-11 20:51:18 UTC)
+    Converter 2.1.5
+foo_dsp_eq (2024-07-11 20:51:18 UTC)
+    Equalizer 1.2.3
+foo_dsp_std (2024-07-11 20:51:18 UTC)
+    Standard DSP Array 2.1.5
+foo_fileops (2024-07-11 20:51:18 UTC)
+    File Operations 2.1.5
+foo_freedb2 (2024-07-11 20:51:18 UTC)
+    Online Tagger 0.10
+foo_input_std (2024-07-11 20:51:18 UTC)
+    CD Audio Decoder 2.1.5
+    FFmpeg Decoders 6.0
+    FLAC Decoder 1.4.3
+    Monkey's Audio Decoder 10.30
+    Opus Decoder 1.4
+    Standard Input Array 2.1.5
+foo_ui_std (2024-07-11 20:51:18 UTC)
+    Album List 2.1.5
+    Decoding Speed Test 2.1.5
+    Default User Interface 2.1.5
+    File Integrity Verifier 2.1.5
+foo_unpack (2024-07-11 20:51:18 UTC)
+    ZIP/GZIP/RAR/7-Zip Reader 2.1.5
+
+Recent events:
+[10ms] Pre component load
+[10ms] Loading DLL: Z:\home\furdox\.foobar2000\components\foo_dsp_eq.dll
+[11ms] Component : foo_dsp_eq API 81
+[11ms] Added 6 services
+[11ms] Loading DLL: Z:\home\furdox\.foobar2000\components\foo_ui_std.dll
+[12ms] Component : foo_ui_std API 81
+[12ms] Added 113 services
+[12ms] Loading DLL: Z:\home\furdox\.foobar2000\components\foo_input_std.dll
+[14ms] Component : foo_input_std API 81
+[14ms] Added 195 services
+[15ms] Loading DLL: Z:\home\furdox\.foobar2000\components\foo_freedb2.dll
+[15ms] Component : foo_freedb2 API 81
+[15ms] Added 9 services
+[15ms] Loading DLL: Z:\home\furdox\.foobar2000\components\foo_unpack.dll
+[15ms] Component : foo_unpack API 81
+[15ms] Added 8 services
+[15ms] Loading DLL: Z:\home\furdox\.foobar2000\components\foo_fileops.dll
+[16ms] Component : foo_fileops API 81
+[16ms] Added 18 services
+[16ms] Loading DLL: Z:\home\furdox\.foobar2000\components\foo_dsp_std.dll
+[16ms] Component : foo_dsp_std API 81
+[16ms] Added 19 services
+[17ms] Loading DLL: Z:\home\furdox\.foobar2000\components\foo_converter.dll
+[17ms] Component : foo_converter API 81
+[17ms] Added 40 services
+[17ms] Total: 773 services, 151 classes
+[17ms] Components loaded in: 0:00.007175
+[18ms] Pre config read
+[18ms] No theme file found.
+[18ms] Configuration read in: 0:00.000050
+[18ms] foobar2000 v2.1.5 x86 [portable]
+[18ms] setConfigInt(core.configVersion,2000)
+[20ms] setConfigBlob(cfg_var.AD13B1D4-A6F7-425E-A93B-2A3C7DC37A93,4 bytes)
+[20ms] setConfigBlob(cfg_var.AD13B1D4-A6F7-425E-A93B-2A3C7DC37A93,20 bytes)
+[79ms] User Interface initialized in: 0:00.059100
+[79ms] Processing commandline
+[79ms] initquit::init entry
+[79ms] FFmpeg version: 6.0
+[79ms] initquit::init exit
+[79ms] Startup time : 0:00.071813
+[79ms] Library initialized after 0:00.071848
+[94ms] Could not list user components directory: Object not found
+[114ms] setConfigBlob(cfg_var.64DCCFA1-B289-407A-BD59-98841A205717,52 bytes)
+[15770ms] setConfigBlob(cfg_var.22AF8F41-D22D-4529-B0ED-437BE9AEC30C,16 bytes)
+[15796ms] Album List refreshed in: 0:00.000120
+[60080ms] setConfigInt(metadb.last-gc,133652047606532637)
+
+
+Machine specifications:
+OS: wine-9.12, on: Linux / 6.9.8-arch1-1
+CPU: 12th Gen Intel(R) Core(TM) i5-12600K, features: MMX SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX LZCNT
+CPU threads: 16
+Audio: Out: default; Out: HDA Intel PCH - ALC897 Analog; Out: HDA NVidia - SyncMaster; Out: HDA NVidia - HDMI 2; Out: HDA NVidia - HDMI 3

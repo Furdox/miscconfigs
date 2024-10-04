@@ -20,7 +20,7 @@ menuentry "GParted Live GRUB config"  {
         configfile /boot/grub/grub.cfg
 }
 
-menuentry "Kubuntu 22.04 Installer GRUB config"  {
+menuentry "Linux Mint XFCE GRUB config"  {
         insmod part_gpt
         insmod btrfs
         insmod ext2
@@ -28,7 +28,7 @@ menuentry "Kubuntu 22.04 Installer GRUB config"  {
         configfile /boot/grub/grub.cfg
 }
 
-menuentry "Debian Installer GRUB config"  {
+menuentry "Arch Installer GRUB config"  {
         insmod part_gpt
         insmod btrfs
         insmod ext2
@@ -36,7 +36,7 @@ menuentry "Debian Installer GRUB config"  {
         configfile /boot/grub/grub.cfg
 }
 
-menuentry "Arch Installer GRUB config"  {
+menuentry "Unused Arch Installer GRUB config"  {
         insmod part_gpt
         insmod btrfs
         insmod ext2
@@ -97,7 +97,7 @@ set color_highlight=red/cyan
 #background_image -m stretch /data/bg/puffisidelow.png
 #WALLPAPER=/data/bg/puffisidelow.png
 
-#if background_image /data/bg/puffisidelow.png; then
+#if background_image /boot/grub/puffisidelow.png; then
 #  true
 #else
 #  set menu_color_normal=white/black

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="title-initial" type="string" value="UwU"/>
+  <property name="title-mode" type="string" value="TERMINAL_TITLE_APPEND"/>
+  <property name="kinetic-scrolling" type="bool" value="true"/>
+  <property name="scrolling-unlimited" type="bool" value="true"/>
+  <property name="overlay-scrolling" type="bool" value="true"/>
+  <property name="misc-cursor-blinks" type="bool" value="true"/>
+  <property name="font-use-system" type="bool" value="true"/>
+  <property name="text-blink-mode" type="string" value="TERMINAL_TEXT_BLINK_MODE_FOCUSED"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+  <property name="color-background" type="string" value="#000011110000"/>
+  <property name="color-foreground" type="string" value="#0000ffff0000"/>
+  <property name="color-background-vary" type="bool" value="false"/>
+  <property name="misc-bell" type="bool" value="true"/>
+  <property name="encoding" type="string" value="UTF-8"/>
+  <property name="background-darkness" type="double" value="0.59999999999999998"/>
+  <property name="misc-show-unsafe-paste-dialog" type="bool" value="false"/>
+  <property name="misc-default-geometry" type="string" value="95x40"/>
+  <property name="misc-bell-urgent" type="bool" value="true"/>
+  <property name="color-use-theme" type="bool" value="false"/>
+  <property name="run-custom-command" type="bool" value="false"/>
+  <property name="custom-command" type="string" value="bash"/>
+  <property name="color-cursor-foreground" type="string" value="#616135358383"/>
+  <property name="color-cursor" type="string" value="#81813d3d9c9c"/>
+  <property name="color-cursor-use-default" type="bool" value="false"/>
+  <property name="color-selection" type="string" value=""/>
+  <property name="color-selection-background" type="string" value=""/>
+  <property name="color-selection-use-default" type="bool" value="true"/>
+  <property name="color-bold" type="string" value=""/>
+  <property name="color-bold-use-default" type="bool" value="true"/>
+  <property name="color-palette" type="string" value="#000000;#cd0000;#00cd00;#cdcd00;#0000cd;#cd00cd;#00cdcd;#e5e5e5;#7f7f7f;#ff0000;#00ff00;#ffff00;#5c5cff;#ff00ff;#00ffff;#ffffff"/>
+  <property name="color-bold-is-bright" type="bool" value="true"/>
+  <property name="tab-activity-color" type="string" value="#aa0000"/>
+  <property name="background-image-file" type="string" value="/home/furdox/Downloads/GIU0lrqW8AAr8oF.jpg"/>
+  <property name="background-image-style" type="string" value="TERMINAL_BACKGROUND_STYLE_FILLED"/>
+  <property name="background-image-shading" type="double" value="0.94999999999999996"/>
+</channel>

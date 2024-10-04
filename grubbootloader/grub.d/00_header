@@ -117,7 +117,6 @@ cat <<EOF
     insmod vga
     insmod video_bochs
     insmod video_cirrus
-    insmod png
   fi
 EOF
 fi

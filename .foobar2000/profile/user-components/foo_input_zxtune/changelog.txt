@@ -1,0 +1,768 @@
+ZXTune library changelog.
+
+Annotation:
+[+] - new feature
+[-] - removed feature/rudiment
+[*] - fix/improvement
+
+--- Rev4950 from 14.07.2020
+
+[+] Full support of VGM format chips and versions
+
+--- Rev4830 from 09.12.2019
+
+[*] Optimized memory usage
+
+--- Rev4760 from 14.11.2019
+
+[+] Added support of Farbrausch V2 Synthesizer System (V2M)
+
+--- Rev4720 from 26.10.2019
+
+[*] Fixed YM2608 overload distortion in VGM format playback
+
+--- Rev4500 from 15.04.2019
+
+[*] Fixed AHX/HVL playback without looping
+
+--- Rev4440 from 02.04.2019
+
+[*] Fixed ProSoundMaker (PSM) playback and detection
+
+--- Rev4350 from 22.01.2019
+
+[*] Fixed some formats playback
+
+--- Rev4340 from 20.01.2019
+
+[+] Supported loops count limitation
+
+--- Rev4310 from 18.12.2018
+
+[*] Fixed parsing of TurboSound containers with big submodules (BB#114)
+
+--- Rev4210 from 18.10.2018
+
+[*] Fixed crash in some .gsf tracks playback
+
+--- Rev4190 from 10.09.2018
+
+[*] Fixed ET1 tracks playback
+[*] Fixed digital SID tunes playback
+
+--- Rev4160 from 14.05.2018
+
+[+] Added support of Raster Music Tracker (.RMT)
+[+] Supported additional FastTracker frequency tables (BB#102)
+[*] Fixes in .SAP parsing
+[*] Fixes in .SPC playback
+[*] Fixed .VGM v1.71 support
+[*] Fixed playback of .AY files with simultanous AY and beeper (BB#106)
+[*] Fixed reported and found crashes
+
+--- Rev4100 from 14.02.2018
+
+[+] Added support of Sega Dreamcast format (DSF)
+[+] Added support of Sega Saturn format (SSF)
+[+] Support silence detection while playback (BB#87)
+[*] Fixed SoundTracker playback (BB#101)
+[*] Increased SPC playback volume
+[*] Use ASAP library for .sap playback
+[*] Fixed reported and found crashes
+
+--- Rev4040 from 19.10.2017
+
+[*] Speedup 2SF tracks rendering and seeking
+[*] Do not fadeout in looped mode
+[*] Fixed reported and found crashes
+
+--- Rev3950 from 04.07.2017
+
+[+] Added support of Nintendo DS Sound Format (2SF)
+[+] Added support of Startrekker format (MOD)
+[*] Speedup archived multifile tracks browsing
+[*] Fixed GSF patches parsing
+[*] Updated SID songs lengths database to HVSC v66
+
+--- Rev3890 from 18.04.2017
+
+[+] Added support of PlayStation 1&2 Sound Format (PSF,PSF2)
+[+] Added support of Nintendo Ultra64 Sound Format (USF)
+[+] Added support of GameBoy Advance Sound Format (GSF)
+[+] Supported packed GYM files (BB#74)
+[*] Treat HES files as multitrack (32 tracks total)
+[*] Full support of UTF-8
+[*] Fix Vortex Tracker text format parsing
+[*] Fixed PT3 note gliss effect (BB#71)
+
+--- Rev3750 from 06.12.2016
+
+[*] Samples for DAC-based modules are copied from input data instead of sharing
+
+--- Rev3740 from 28.11.2016
+
+[+] Added support of HivelyTracker (HVL)
+
+--- Rev3720 from 16.11.2016
+
+[*] Moved to C++11
+[*] Improved support of SNA128 snapshots
+[*] Improved support of DST tracks
+[*] Fixed multitrack SAP files processing
+[*] Improved okim6295 support for VGM
+[*] Fixed some crashes in MsPack decoder
+[*] Speedup applications initialization
+[*] Improved support of KSSX files with single track (BB#59)
+[*] Fixed crashes while KSS seeking
+[*] Improved AY format detection
+[*] Use mono channels layout for AHX playback
+
+--- Rev3590 from 14.03.2016
+
+[+] Added KSS format support
+[*] Decreased size of binaries and packages
+[*] Fixed playback of some HES files
+[*] Fixed playback of arpeggio effect in tf0/tfe formats playback
+
+--- Rev3520 from 17.11.2015
+
+[+] Support additional module strings retrieval (e.g. samples/instruments names)
+
+--- Rev3500 from 30.10.2015
+
+[*] Slight fixes in COP playback
+
+--- Rev3480 from 13.10.2015
+
+[*] Fixed playback of some .ay files
+[*] Fixed looped VGM tracks length (BB#18)
+[*] Fixed SPC track author (BB#19)
+
+--- Rev3450 from 17.08.2015
+
+[+] Added Abyss' Highest Experience format support (AHX)
+[+] Support tuneable default modules duration
+
+--- Rev3370 from 16.06.2015
+
+[+] Added NSF, NSFE, GBS, SAP, HES, VGM and GYM formats support
+[*] Fixed .ay files playback seeking
+
+--- Rev3270 from 21.04.2015
+
+[+] Added MultiTrackContainer (MTC) format support
+[*] Fixes in PT3 playback
+[*] Fixes in Vortex TXT parsing
+[*] Fixes in DMM processing for samples with invalid loop
+[*] Reduced volume of TFM tracks
+[*] Fixed parsing of some AY modules (BB#12)
+[*] Fixed crash on SID playback finish
+[*] Fixed playback of TS tracks with different duration
+
+--- Rev3215 from 25.02.2015
+
+[+] Added SNES SPC support
+[*] Fixed processing of some multitrack AY files
+[*] Fixed TurboLZ packers support
+
+--- Rev3190 from 10.02.2015
+
+[+] Added Amstrad AYC support
+[*] Fixed processing of non-ascii symbols in modules
+[*] Fixed STP/PT2 playback with default sample
+[*] Fixed filter emulation for SID playback
+
+--- Rev3170 from 20.01.2015
+
+[*] Updated libsidplayfp for 1.6.2
+[*] Fixed PT3 playback with default sample
+[*] Reset not significant registers bits in AY format convertors
+
+--- Rev3150 from 03.12.2014
+
+[+] Added ExtremeTracker v1.xx support
+[*] Fix crash on invalid MMD3 modules
+
+--- Rev3135 from 18.11.2014
+
+[*] Fixed SQD playback
+
+--- Rev3120 from 27.10.2014
+
+[*] improved quality of beeper emulation
+[*] updated SID songs length database to #61
+
+--- Rev3100 from 22.09.2014
+
+[+] Support unpacked YM files
+[+] Support PCD6.1i packer modification
+[*] Proper size detection of PCD blocks
+[*] Improved support of CodeCruncher3 (CC3) packed blocks
+
+--- Rev3075 from 23.07.2014
+
+[*] Reduce size of SID song lengths database
+
+--- Rev3050 from 29.04.2014
+
+[+] Support SID format version 3
+
+--- Rev3000 from 03.04.2014
+
+[+] Support MOS6581/SID playback (PSID/RSID formats) using libsidplayfp library
+[*] Fixes in AS0/ASC playback of some modules
+[*] Fixed playback of incorrect YM5 files
+[*] Fixed different note tables support in TurboSound containers
+[*] Fixed playback of some AY modules
+
+--- Rev2880 from 26.12.2013
+
+[*] Fixed SAA playback for some platforms
+[*] Improved detection of STIM (SlamTilt) tracks
+
+--- Rev2850 from 19.12.2013
+
+[*] Fixed IMS and MOD formats detection
+
+--- Rev2820 from 16.12.2013
+
+[+] Support of S3M modules without synthesized samples
+
+--- Rev2800 from 11.12.2013
+
+[+] Support more than 40 chiptune formats via libxmp library
+
+--- Rev2742 from 09.12.2013
+
+[*] Fixed crashes in DMM parsing
+
+--- Rev2705 from 05.11.2013
+
+[*] Fixed AS0/ASC playback
+
+--- Rev2652 from 15.10.2013
+
+[*] Fixed TRUSH packed blocks processing with non-standard depacker
+
+--- Rev2635 from 01.10.2013
+
+[*] Reduced delay on tracks switch
+[*] Improved detection of small-sized chiptunes
+[*] Fixed GTR size detection
+[*] Fixed lower bound of DAC samples frequency (applicable for DST)
+
+--- Rev2585 from 19.08.2013
+
+[*] Fixes in MegaLZ and TF0/TFM decoding
+
+--- Rev2566 from 06.08.2013
+
+[*] Fixed LZH2 decoding
+[*] Fixes in YM files size detection
+[*] Speedup AYM rendering up to 20%
+[*] Speedup TurboSound rendering up to 50%
+[*] Speedup TFM rendering up to 20%
+[*] Speedup SAA rendering up to 10%
+[*] Fixed AYM dumpers
+[*] Improved memory usage while TFD/TFC playback
+[*] Fixed seeking for all types of modules (especially FM and DAC-based)
+
+--- Rev2496 from 21.06.2013
+
+[*] Slightly relaxed AS0/ASC detection
+
+--- Rev2466 from 13.06.2013
+
+[+] HQ interpolation for SAA chiptunes
+[+] Precise sample frequency setup for DAC chiptunes
+[*] Fixed TF0/TFE playback
+[*] Speedup sound pipeline
+[*] Speedup AYM renderer
+[*] Speedup DAC renderer
+[*] Fixed DST playback
+[*] Speedup parameters polling
+
+--- Rev2416 from 29.05.2013
+
+[+] TFM Music Maker modules support v0.1-v1.2 (TF0) and v1.3+ (TFE)
+[*] Fixed SQD playback
+[*] Fixed PT3 playback
+
+--- Rev2395 from 13.05.2013
+
+[+] SAA1099 emulation support
+[+] Sam Coupe ETracker modules support (COP)
+[+] HQ interpolation for AY chip
+
+--- Rev2363 from 23.04.2013
+
+[+] Support mono layout in VTX modules
+[+] Support YM6 subtype of YM files
+[*] Fixed crash in Hrust2.3/Hrip archives decoding
+
+--- Rev2327 from 09.03.2013
+
+[+] FastTracker modules support (FTC)
+
+--- Rev2309 from 29.03.2013
+
+[+] Pro Sound Creator compiled modules support (PSC)
+[*] Improved Sample Tracker detection and coverage
+
+--- Rev2296 from 20.03.2013
+
+[+] SQ-Tracker compiled modules support (SQT)
+[*] Scan speedup for ~5%
+
+--- Rev2239 from 20.02.2013
+
+[*] Fixed crash while scanning
+[*] Fixed hangup while scanning
+[*] Speedup AY/YM rendering
+[*] Fixed TFM analyzer
+[*] Reworked SampleTracker and ChipTracker parsing
+
+--- Rev2171 from 28.01.2013
+
+[*] Sound rendering pipeline speedup
+[*] Support fadeout for .ay files
+[*] Reduced AYM dynamic range to avoid clicks at start/finish of tracks
+
+--- Rev2086 from 29.10.2012
+
+[*] Speedup for Z80, STC, ST3 and PSM formats detection
+[*] Reworked VortexTracker II (TXT) files parsing. Fixed crash
+[*] Using AY volume table to play 4-bit digital samples in DST and DMM modules
+[*] Fixed loop processing for some samples in DigitalStudio modules
+
+--- Rev2035 from 27.09.2012
+
+[*] Slight speedup for ay/ym rendering (~15%) and interpolated rendering (~60%)
+
+--- Rev2000 from 11.09.2012
+
+[+] Supported [Extension] template field
+
+--- Rev1946 from 27.08.2012
+
+[+] MegaLZ packed blocks support (MEGALZ)
+
+--- Rev1936 from 21.08.2012
+
+[+] ST3 (SoundTracker v3.x) format support including player analysis (COMPILEDST3)
+[*] Improved detect of AS0/ASC modules
+
+--- Rev1924 from 13.08.2012
+
+[+] Snapshots (.z80) format support (Z80V145, Z80V20, Z80V30 for versions 1.45, 2.0 and 3.0 respectively)
+[*] Improved VTX detection
+[*] Speedup for debug logging
+
+--- Rev1877 from 23.07.2012
+
+[+] zx-state (.szx) snapshots format support
+
+--- Rev1850 from 03.07.2012
+
+[+] RPM packages building
+[*] Fixed DataSqueezer (DSQ) decoding
+[*] Slight AY/YM rendering speedup
+[*] Fixed TurboSound (TS) modules attributes
+
+--- Rev1802 from 13.06.2012
+
+[+] TFC format support
+[*] Scan speedup for 5..10%
+[*] Mono layout for AYM chiptunes
+[*] Sound samples generating fix. Default sound level is amplified.
+[*] Fixed FM playback
+
+--- Rev1777 from 04.06.2012
+
+[+] TFD format support
+[+] Compressed td0 images support
+[*] Fixed STP 1.xx detection
+[*] Improved AS0 detection
+[*] Detection speedup
+[*] AYM rendering slight speedup
+
+--- Rev1747 from 29.05.2012
+
+[+] VTX modules support
+[+] YM modules support
+
+--- Rev1716 from 17.05.2012
+
+[+] optional twice analysis of plain data containers
+[*] boost 1.49.0
+
+--- Rev1659 from 25.04.2012
+
+[+] ProTracker v1.xx support (PT1)
+
+--- Rev1649 from 17.04.2012
+
+[+] GlobalTracker support (GTR)
+
+--- Rev1636 from 10.04.2012
+
+[+] ProSoundMaker support (PSM)
+[*] Fixed playback in some cases
+
+--- Rev1625 from 02.04.2012
+
+[*] Improved MSPack detection
+[*] Strict TRD check
+[*] Relaxed ST1 detection
+[*] Fixed Hrust padding skip
+[*] Hrust21 padding skip
+[*] Fixed size detection for all chiptune formats
+
+--- Rev1594 from 21.03.2012
+
+[*] Fixed SCL containers used size
+[*] Hrust/Hrum paddings are not analysed
+[*] Improved ST1 detection
+[*] Slight speedup due to more precised detectors
+
+--- Rev1545 from 12.02.2012
+
+[*] Improved STP detection
+[*] Fixes in PT3 parsing
+[*] Improved STC detection
+[*] Fix for CPC AY playback
+[*] Fixed DMM modules size detection
+
+--- Rev1533 from 07.02.2012
+
+[*] Reworked PT3 detection
+[*] All modules without samples are ignored
+[*] Improved PT2 detection
+[*] Fixed metainfo insertion to AS0/ASC/STP
+[*] Fixed memory usage
+[*] Fixed volume level reset after new module start while playback via DirectSound
+
+--- Rev1514 from 25.01.2012
+
+[*] Scan speedup for 10%
+[*] Improved TRUSH detection
+[*] Improved STP detection
+[*] Reworked PT2 detection
+
+--- Rev1504 from 16.01.2012
+
+[+] Supported Hrust2.3 packer (also used in Hrip archiver)
+[*] Fixed crash while STR detect
+[*] Fixed crash after AY playback stop
+
+--- Rev1497 from 09.01.2012
+
+[+] Supported STP 2.0 player analysis (COMPILEDSTP2) to retreive metainformation (COMPILEDSTP became COMPILEDSTP1)
+[*] DigitalMusicMaker: fixed volume slide effect
+[*] ChipTracker: fixed microslide effect
+[*] Fix for position reset while playback stop
+
+--- Rev1487 from 27.12.2011
+
+[+] Supported AS0/ASC players analysis (COMPILEDASC0, COMPILEDASC1, COMPILEDASC2) to retreive metainformation
+[+] Supported STP player analysis (COMPILEDSTP) to retreive metainformation
+[*] Improved metainformation analysis for AS0/ASC modules
+
+--- Rev1472 from 19.12.2011
+
+[+] ASC Sound Master 0.xx format support (AS0)
+[*] Improved ASC detection
+[*] Improved STC/ST1 metainformation retreive
+
+--- Rev1460 from 13.12.2011
+
+[*] Fixed STP playback with invalid loop information
+[*] Fixed ASC playback
+[*] Fixed metainformation retreive from ASC modules
+
+--- Rev1450 from 05.12.2011
+
+[+] Uncompressed TeleDisk images support (TD0)
+[*] Improved TRD images processing
+[*] Improved STP detection
+
+--- Rev1439 from 30.11.2011
+
+[+] Supported AY conversion to all supported formats (PSG, ZX50, FYM)
+[*] STC detection speedup
+[*] Fixed STC/ST1 playback
+[*] Fixed crash on some DST files
+[*] Reworked STP detection
+
+--- Rev1428 from 21.11.2011
+
+[*] Fixed DST, SNA128, STC and ST1 detection
+
+--- Rev1408 from 08.11.2011
+
+[+] Snapshots (.sna) format support (SNA128)
+[*] Fixes in DST detection
+
+--- Rev1403 from 02.11.2011
+
+[+] DMM format support (DigitalMusicMaker)
+[*] Fixed PT3 modules detect created using Vortex Tracker
+[*] Fixed some crash while processing PT3 and ZXZip data
+
+--- Rev1394 from 24.10.2011
+
+[+] DST format support (DigitalStudio)
+[+] SQD format support (SQ Digital Tracker)
+[*] Fixed SoundTracker note table for ProTracker3 player
+
+--- Rev1380 from 18.10.2011
+
+[+] STR format support (SampleTracker)
+[*] Using cosine interpolation instead of linear for DAC output
+[*] Fixed FYM conversion
+[*] Changed FixedCRC calculation for AY and PSG modules for better rip-offs searching
+[-] Removed components version information
+
+--- Rev1349 from 27.09.2011
+
+[+] GamePacker (2 versions) compressor support (GAM and GAMPLUS respectively)
+[+] Turbo-LZ (2 versions) compressor support (TLZ and TLZP respectively)
+[+] CharPres compressor support (CHARPRES)
+[+] LZH Packer (2 versions) compressor support (LZH1 and LZH2 respectively)
+[*] Fixed crash for some packed blocks processing
+
+--- Rev1316 from 13.09.2011
+
+[*] Much smooth progress while big files processing
+[*] Fixed AY detection and crashes
+
+--- Rev1299 from 06.09.2011
+
+[*] Fixed rip-offs detection for ASC/STC/STP modules
+[*] Fixed regression in PT3/STC detection
+
+--- Rev1286 from 30.08.2011
+
+[*] Fix for AY modules detection
+
+--- Rev1274 from 23.08.2011
+
+[*] Fixed some crashes
+
+--- Rev1262 from 16.08.2011
+
+[+] ST1 format support (noncompiled SoundTracker modules) with the next limitations:
+    - in big data arrays searching is applied only for first 32k (due to format particularities)
+    - sound may be different from official player (format is reverse engineered)
+
+--- Rev1246 from 09.08.2011
+
+[*] AY rendering speedup
+[*] TRDos files located in archives are consolidated
+[*] Support names for ZXZip archived files
+
+--- Rev1229 from 02.08.2011
+
+[+] Multitrack AY modules support
+[+] Initial support of AY modules seeking
+[*] AY/YM rendering speedup
+[*] PT3 playback fix
+[*] Fixed AY modules for CPC hardware playback
+
+--- Rev1214 from 26.07.2011
+
+[+] Beeper support in AY tracks
+[+] CPC hardware support in AY tracks
+[*] Fixed z80 emulation (INT duration)
+[*] AY/YM rendering speedup
+[*] Fixed playback of corrupted PT2 modules
+
+--- Rev1194 from 14.07.2011
+
+[+] Support for one more ZXZip compression method. 3 of 4 methods are supported now (besides 'slow')
+[+] Initial AY format support. The next limitations are applied:
+    - only EMUL format
+    - no beeper support
+    - no seeking support
+    - multimodule files are not supported at all due to possible compatibility problems.
+
+--- Rev1170 from 30.06.2011
+
+[*] Enhanced PT2/PT3/ASC/STC/STP modules detection.
+[*] Detection speedup for 10%
+
+--- Rev1162 from 23.06.2011
+
+[+] CompressorCode4 and CompressorCode4+ support (CC4 and CC4PLUS respectively)
+[+] Initial ZXZip support (2 compression methods of 4)
+[*] Detection speedup for 25%
+
+--- Rev1146 from 15.06.2011
+
+[*] 'Channels' field means nonempty notes count in current line
+[*] Much precise AY/YM noise generating in case of duty cycle is not 50%
+[+] FYM conversion support
+[*] Fixed ZX50 conversion
+[*] Fixed invalid channels layout CBA/CAB
+
+--- Rev1063 from 11.04.2011
+
+[*] Detection speedup for 50%
+[*] Improved TS modules detection in raw data
+[*] PCD support is splitted on two plugins- PCD61 and PCD62. Causes backward compatibility problems with .xspf playlists.
+[*] Binary players and depackers are ignored now and skipped while scanning
+
+--- Rev1021 from 22.03.2011
+
+[*] Detection speedup for 25%
+[*] Improved TRD containers detection
+[*] Fixed stored hrust2 data processing
+
+--- Rev996 from 13.03.2011
+
+[*] Fixed empty PSG files detection
+[*] Detection speedup for 10%
+
+--- Rev984 from 08.03.2011
+
+[*] Improved STP/TS detection
+[*] Detection speedup for 40%
+
+--- Rev972 from 01.03.2011
+
+[*] Improved STC/STP detection
+
+--- Rev958 from 22.02.2011
+
+[*] Improved HRUST1/HOBETA detection
+
+--- Rev938 from 09.02.2011
+
+[*] Fixed modules parsing errors
+
+--- Rev915 from 01.02.2011
+
+[+] CodeCruncher3 support (CC3)
+[+] ESV Cruncher support (ESV)
+[*] Improved detection support
+
+--- Rev904 from 25.01.2011
+
+[+] Hrum support (HRUM)
+[+] PCD support (PCD)
+[*] Fixed TRD/SCL processing in case of similar files inside
+[*] Fixed CRC calculation
+
+--- Rev885 from 18.01.2011
+
+[+] LZSPack support (LZS)
+[+] Trush support (TRUSH)
+[*] Fixed HRUST1 detection
+
+--- Rev868 from 11.01.2011
+
+[*] Fixed some crashes while modules searching
+[*] AY render is optimized for slow PCs
+
+--- Rev852 from 30.12.2010
+
+[*] Changed internal modules path format
+
+--- Rev614 from 10.09.2010
+
+[+] DataSqueezer support (DSQ)
+
+--- Rev539 from 09.06.2010
+
+[*] Speedup TS modules searching
+
+--- Rev525 from 24.05.2010
+
+[*] Natural frequency table support for VortexTracker modules
+[*] Fixes in TRD processing
+[*] Fixes in TS detection
+
+--- Rev506 from 16.05.2010
+
+[*] HRiP processing fixes
+
+--- Rev493 from 10.05.2010
+
+[*] Detection fixes
+
+--- Rev473 from 05.05.2010
+
+[*] Fixes in PT2 playback
+
+--- Rev461 from 26.04.2010
+
+[*] Detection speedup
+[*] Fixes in PSG playback
+
+--- Rev435 from 08.04.2010
+
+[*] Detection speedup
+
+--- Rev413 from 25.03.2010
+
+[+] Fixes in STP detecton
+
+--- Rev406 from 22.03.2010
+
+[+] TurboSound (TS) support
+
+--- Rev394 from 10.03.2010
+
+[*] Fixes in ASC detection
+
+--- Rev384 from 02.03.2010
+
+[+] Conversion support to ZX50
+
+--- Rev369 from 26.02.2010
+
+[*] Fixes in PT3 detection
+
+--- Rev351 from 08.02.2010
+
+[*] Fixes in PT3 detection/playback
+
+--- Rev324 from 28.01.2010
+
+[+] Raw scanner support
+[+] Conversion support to PSG
+[+] Duty cycle support for AY/YM chip emulation
+
+--- Rev108 from 28.08.2009
+
+[+] ProDigiTracker (PDT) support
+[+] SoundTrackerPro (STP) support
+[+] FDI container support
+
+--- Rev100 from 30.06.2009
+
+[+] SCL container support
+
+--- Rev77 from 23.06.2009
+
+[+] Hrust1.x/2.x container support
+[+] HRiP container support
+
+--- Rev69 from 19.06.2009
+
+[+] Bandpass filter support
+
+--- Rev56 from 10.06.2009
+
+[+] Hobeta container support
+[*] Fixes in PT3 playback
+
+--- Rev50 from 07.06.2009
+
+[+] PSG format support
+[+] ASC Sound Master v1.xx (ASC) support
+[+] ProTracker v2.xx (PT2) support
+[+] ProTracker v3.xx (PT3) support
+[+] SoundTracker Compiled (STC) support
+[+] ChipTracker (CHI) support
+[+] TRD container support

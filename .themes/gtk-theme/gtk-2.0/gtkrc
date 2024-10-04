@@ -1,0 +1,49 @@
+style "default"
+{
+    xthickness = 2
+    ythickness = 2
+
+    base[ACTIVE]      = "#fbfcfb"
+    base[INSENSITIVE] = "#f9faf9"
+    base[NORMAL]      = "#fbfcfb"
+    base[PRELIGHT]    = "#eeddff"
+    base[SELECTED]    = "#eeddff"
+
+    bg[ACTIVE]        = "#eff0ef"
+    bg[INSENSITIVE]   = "#fbfcfb"
+    bg[NORMAL]        = "#f9faf9"
+    bg[PRELIGHT]      = "#eeddff"
+    bg[SELECTED]      = "#cc99ff"
+
+    fg[ACTIVE]        = "#000000"
+    fg[INSENSITIVE]   = "#989998"
+    fg[NORMAL]        = "#000000"
+    fg[PRELIGHT]      = "#000000"
+    fg[SELECTED]      = "#000000"
+
+    text[ACTIVE]      = "#000000"
+    text[INSENSITIVE] = "#000000"
+    text[NORMAL]      = "#000000"
+    text[PRELIGHT]    = "#000000"
+    text[SELECTED]    = "#000000"
+
+    engine "xfce"
+    {
+        smooth_edge = true
+        boxfill
+        {
+            fill_style = gradient
+            orientation = auto
+            shade_start = 0.90
+            shade_end = 1.05
+        }
+    }
+}
+
+style "tooltips" = "default"
+{
+    bg[NORMAL] = "#ffeedd"
+}
+
+widget_class "*"                  style "default"
+widget "gtk-tooltip*"              style "tooltips"

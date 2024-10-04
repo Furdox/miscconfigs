@@ -1,0 +1,1 @@
+/usr/share/foobar2000/themes/Separate Album & Artist Columns.fth

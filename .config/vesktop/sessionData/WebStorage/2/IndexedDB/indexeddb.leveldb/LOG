@@ -1,0 +1,15 @@
+2024/10/03-23:03:28.710 c5a Reusing MANIFEST /home/furdox/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/10/03-23:03:28.710 c5a Recovering log #103
+2024/10/03-23:03:28.711 c5a Reusing old log /home/furdox/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/000103.log 
+2024/10/03-23:14:58.812 c48 Level-0 table #108: started
+2024/10/03-23:14:58.817 c48 Level-0 table #108: 33933 bytes OK
+2024/10/03-23:14:58.824 c48 Delete type=0 #103
+2024/10/03-23:14:58.825 c48 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/10/03-23:14:58.825 c48 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00`\xa2\xd5W%yB\x00\x03\x00\x00\x00\x00\x00\x08\x83@' @ 16451 : 1
+2024/10/03-23:14:58.825 c48 Compacting 1@1 + 1@2 files
+2024/10/03-23:14:58.828 c48 Generated table #109@1: 62 keys, 1436 bytes
+2024/10/03-23:14:58.828 c48 Compacted 1@1 + 1@2 files => 1436 bytes
+2024/10/03-23:14:58.835 c48 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/10/03-23:14:58.835 c48 Delete type=2 #105
+2024/10/03-23:14:58.836 c48 Delete type=2 #108
+2024/10/03-23:14:58.836 c48 Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00`\xa2\xd5W%yB\x00\x03\x00\x00\x00\x00\x00\x08\x83@' @ 16451 : 1 .. (end); will stop at (end)

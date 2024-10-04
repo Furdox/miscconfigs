@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-notifyd" version="1.0">
+  <property name="log-max-size-enabled" type="bool" value="true"/>
+  <property name="date-time-custom-format" type="string" value="%a %H:%M:%S"/>
+  <property name="do-slideout" type="bool" value="true"/>
+  <property name="theme" type="string" value="Default"/>
+  <property name="applications" type="empty">
+    <property name="known_applications" type="array">
+      <value type="string" value="blueman"/>
+      <value type="string" value="FileZilla"/>
+      <value type="string" value="Firefox"/>
+      <value type="string" value="heroic"/>
+      <value type="string" value="microsoft-edge-dev"/>
+      <value type="string" value="org.kde.drkonqi"/>
+      <value type="string" value="org.kde.kdeconnect.daemon"/>
+      <value type="string" value="org.xfce.Thunar"/>
+      <value type="string" value="org.xfce.xfdesktop"/>
+      <value type="string" value="signal"/>
+      <value type="string" value="Spotify"/>
+      <value type="string" value="Thunderbird"/>
+      <value type="string" value="Transmission"/>
+      <value type="string" value="vesktop"/>
+      <value type="string" value="Waterfox"/>
+      <value type="string" value="Xfce volume control"/>
+      <value type="string" value="Xfce4-notifyd settings"/>
+      <value type="string" value="xfce4-settings-helper"/>
+      <value type="string" value="Zen"/>
+    </property>
+  </property>
+  <property name="do-not-disturb" type="bool" value="false"/>
+</channel>

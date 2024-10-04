@@ -1,0 +1,6 @@
+2024/10/04-14:30:13.276 11563 Reusing MANIFEST /home/furdox/.config/vesktop/sessionData/IndexedDB/https_discord.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/04-14:30:13.277 11563 Recovering log #189
+2024/10/04-14:30:13.307 11563 Reusing old log /home/furdox/.config/vesktop/sessionData/IndexedDB/https_discord.com_0.indexeddb.leveldb/000189.log 
+2024/10/04-14:53:51.625 114e6 Level-0 table #194: started
+2024/10/04-14:53:51.645 114e6 Level-0 table #194: 1456802 bytes OK
+2024/10/04-14:53:51.654 114e6 Delete type=0 #189
