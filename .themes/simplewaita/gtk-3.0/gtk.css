@@ -158,7 +158,7 @@ textview text:backdrop:selected {
 
 .gtkstyle-fallback:disabled {
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 }
 
 .gtkstyle-fallback:selected {
@@ -181,7 +181,7 @@ iconview:disabled,
 iconview text:disabled,
 textview text:disabled {
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 }
 
 .view:selected:focus,
@@ -232,7 +232,7 @@ flowbox flowboxchild:selected {
 }
 
 .content-view .tile:disabled {
-	background-color: #493e37;
+	background-color: #000093;
 }
 
 label {
@@ -431,7 +431,7 @@ entry:focus {
 spinbutton:disabled:not(.vertical),
 entry:disabled {
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #2e2722;
 	border-top-color: #2e2722;
 	border-right-color: #776e69;
@@ -523,7 +523,7 @@ entry:drop(active) {
 .osd spinbutton:disabled:not(.vertical),
 .osd entry:disabled {
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #2e2722;
 	border-top-color: #2e2722;
 	border-right-color: #776e69;
@@ -738,7 +738,7 @@ calendar.button:disabled,
 button:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -877,7 +877,7 @@ calendar.osd.button:disabled,
 button.osd:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -944,7 +944,7 @@ popover.background.magnifier button:disabled,
 .osd button:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -997,12 +997,12 @@ popover.background.magnifier button.flat:disabled,
 .osd button.flat:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
 	border-bottom-color: #2e2722;
-	background-color: #493e37;
+	background-color: #000093;
 	background-image: none;
 	border-color: transparent;
 	box-shadow: none;
@@ -1090,7 +1090,7 @@ calendar.suggested-action.button:disabled,
 button.suggested-action:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -1154,7 +1154,7 @@ button.suggested-action:disabled:checked {
 .osd button.suggested-action:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -1225,7 +1225,7 @@ calendar.destructive-action.button:disabled,
 button.destructive-action:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -1289,7 +1289,7 @@ button.destructive-action:disabled:checked {
 .osd button.destructive-action:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -1434,7 +1434,7 @@ stacksidebar row.needs-attention>label:dir(rtl),
 .inline-toolbar toolbutton>button:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -1798,7 +1798,7 @@ spinbutton.vertical:disabled {
 }
 
 spinbutton.vertical:backdrop:disabled {
-	color: #493e37;
+	color: #000093;
 }
 
 spinbutton.vertical:drop(active) {
@@ -1860,7 +1860,7 @@ spinbutton.vertical button.down {
 .osd spinbutton.vertical button:first-child:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -2151,7 +2151,7 @@ headerbar.selection-mode button.flat:backdrop:disabled {
 headerbar.selection-mode button:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -2221,7 +2221,7 @@ headerbar.selection-mode button.suggested-action:active {
 headerbar.selection-mode button.suggested-action:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -2516,7 +2516,7 @@ treeview.view:disabled:selected:backdrop {
 }
 
 treeview.view:disabled:backdrop {
-	color: #493e37;
+	color: #000093;
 }
 
 treeview.view.separator {
@@ -2637,7 +2637,7 @@ treeview.view header button:active {
 
 treeview.view header button:disabled {
 	background-image: none;
-	background-color: #493e37;
+	background-color: #000093;
 	color: #7c675a;
 }
 
@@ -3258,7 +3258,7 @@ scrollbar slider:hover:active {
 }
 
 scrollbar slider:disabled {
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -3375,7 +3375,7 @@ switch:checked {
 
 switch:disabled {
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #2e2722;
 	border-top-color: #2e2722;
 	border-right-color: #776e69;
@@ -3415,7 +3415,7 @@ switch:hover slider {
 switch:disabled slider {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -3630,7 +3630,7 @@ check:disabled,
 radio:disabled {
 	box-shadow: none;
 	color: #7c675a;
-	background-image: image(#493e37);
+	background-image: image(#000093);
 }
 
 check:backdrop,
@@ -3644,7 +3644,7 @@ check:backdrop:disabled,
 radio:backdrop:disabled {
 	box-shadow: none;
 	color: #7c675a;
-	background-image: image(#493e37);
+	background-image: image(#000093);
 }
 
 check:checked,
@@ -3676,7 +3676,7 @@ check:checked:disabled,
 radio:checked:disabled {
 	box-shadow: none;
 	color: #7c675a;
-	background-image: image(#493e37);
+	background-image: image(#000093);
 }
 
 check:checked:backdrop,
@@ -3690,7 +3690,7 @@ check:checked:backdrop:disabled,
 radio:checked:backdrop:disabled {
 	box-shadow: none;
 	color: #7c675a;
-	background-image: image(#493e37);
+	background-image: image(#000093);
 }
 
 check:indeterminate,
@@ -3722,7 +3722,7 @@ check:indeterminate:disabled,
 radio:indeterminate:disabled {
 	box-shadow: none;
 	color: #7c675a;
-	background-image: image(#493e37);
+	background-image: image(#000093);
 }
 
 check:indeterminate:backdrop,
@@ -3736,7 +3736,7 @@ check:indeterminate:backdrop:disabled,
 radio:indeterminate:backdrop:disabled {
 	box-shadow: none;
 	color: #7c675a;
-	background-image: image(#493e37);
+	background-image: image(#000093);
 }
 
 check:disabled,
@@ -3782,7 +3782,7 @@ radio:disabled {
 .osd radio:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -3894,7 +3894,7 @@ levelbar>trough:disabled,
 progressbar trough:disabled,
 scale fill:disabled,
 scale trough:disabled {
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #2e2722;
 	border-top-color: #2e2722;
 	border-right-color: #776e69;
@@ -3922,7 +3922,7 @@ progressbar .osd trough:disabled,
 scale .osd fill:disabled,
 .osd scale trough:disabled,
 scale .osd trough:disabled {
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #2e2722;
 	border-top-color: #2e2722;
 	border-right-color: #776e69;
@@ -4007,7 +4007,7 @@ scale slider:active {
 scale slider:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -4047,7 +4047,7 @@ scale slider:disabled {
 .osd scale slider:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -4430,7 +4430,7 @@ button separator {
 }
 
 :disabled separator {
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -4570,7 +4570,7 @@ expander title>arrow:disabled {
 }
 
 expander title>arrow:disabled:backdrop {
-	color: #493e37;
+	color: #000093;
 }
 
 expander title>arrow:checked {
@@ -4735,7 +4735,7 @@ placessidebar row:selected {
 
 placessidebar row:disabled {
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 }
 
 placessidebar row image.sidebar-icon:dir(ltr) {
@@ -4900,7 +4900,7 @@ infobar button:checked {
 infobar button:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -4960,7 +4960,7 @@ infobar.info button:checked {
 infobar.info button:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -5020,7 +5020,7 @@ infobar.question button:checked {
 infobar.question button:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -5080,7 +5080,7 @@ infobar.warning button:checked {
 infobar.warning button:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -5140,7 +5140,7 @@ infobar.error button:checked {
 infobar.error button:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -5377,7 +5377,7 @@ button.titlebutton.close:active:backdrop {
 button.titlebutton.close:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -5427,7 +5427,7 @@ button.titlebutton.maximize:active:backdrop {
 button.titlebutton.maximize:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -5477,7 +5477,7 @@ button.titlebutton.minimize:active:backdrop {
 button.titlebutton.minimize:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -5532,7 +5532,7 @@ cursor-handle:active {
 cursor-handle:disabled {
 	border-width: 2px;
 	color: #7c675a;
-	background-color: #493e37;
+	background-color: #000093;
 	border-left-color: #776e69;
 	border-top-color: #776e69;
 	border-right-color: #2e2722;
@@ -5865,7 +5865,7 @@ text/foreground color of selections */
 @define-color theme_selected_fg_color #ffeeff;
 /*
 base background color of insensitive widgets */
-@define-color insensitive_bg_color #493e37;
+@define-color insensitive_bg_color #000093;
 /*
 text foreground color of insensitive widgets */
 @define-color insensitive_fg_color #7c675a;
@@ -5892,7 +5892,7 @@ text/foreground color of selections on backdrop windows */
 @define-color theme_unfocused_selected_fg_color #ffeeff;
 /*
 insensitive color on backdrop windows*/
-@define-color unfocused_insensitive_color #493e37;
+@define-color unfocused_insensitive_color #000093;
 /*
 widgets main borders color */
 @define-color borders #252525;

@@ -1,6 +1,0 @@
-2024/07/18-20:53:30.147 b6a20 Creating DB /home/furdox/.config/vesktop/sessionData/WebStorage/5/IndexedDB/indexeddb.leveldb since it was missing.
-2024/07/18-20:53:30.157 b6a20 Reusing MANIFEST /home/furdox/.config/vesktop/sessionData/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/07/18-20:55:15.248 b6a21 Level-0 table #5: started
-2024/07/18-20:55:15.253 b6a21 Level-0 table #5: 6730 bytes OK
-2024/07/18-20:55:15.260 b6a21 Delete type=0 #3
-2024/07/18-20:55:15.260 b6a21 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

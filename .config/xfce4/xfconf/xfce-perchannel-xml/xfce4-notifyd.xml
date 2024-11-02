@@ -7,15 +7,19 @@
   <property name="theme" type="string" value="Default"/>
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
+      <value type="string" value="balenaEtcher"/>
       <value type="string" value="blueman"/>
       <value type="string" value="FileZilla"/>
       <value type="string" value="Firefox"/>
       <value type="string" value="heroic"/>
+      <value type="string" value="lunarclient"/>
       <value type="string" value="microsoft-edge-dev"/>
       <value type="string" value="org.kde.drkonqi"/>
       <value type="string" value="org.kde.kdeconnect.daemon"/>
+      <value type="string" value="org.kde.konsole"/>
       <value type="string" value="org.xfce.Thunar"/>
       <value type="string" value="org.xfce.xfdesktop"/>
+      <value type="string" value="redact"/>
       <value type="string" value="signal"/>
       <value type="string" value="Spotify"/>
       <value type="string" value="Thunderbird"/>

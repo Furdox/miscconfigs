@@ -9,7 +9,7 @@
       <property name="position" type="string" value="p=8;x=2330;y=1426"/>
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="icon-size" type="uint" value="25"/>
+      <property name="icon-size" type="uint" value="21"/>
       <property name="size" type="uint" value="25"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
@@ -64,6 +64,20 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (62%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (66%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (73%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (61%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (68%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (58%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (57%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (70%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (60%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (72%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (59%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (71%)"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="transmission"/>
         <value type="string" value="task manager"/>
         <value type="string" value="discord-bot-client"/>
         <value type="string" value="gpick"/>
@@ -74,6 +88,7 @@
         <value type="string" value="notes"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="TeamViewer"/>
         <value type="string" value="transmission"/>
         <value type="string" value="polychromatic-tray-applet"/>
         <value type="string" value="Crash Handler"/>
@@ -88,11 +103,49 @@
         <value type="string" value="Qoob Music Player"/>
         <value type="string" value="chrome_status_icon_1"/>
       </property>
+      <property name="hidden-items" type="array">
+        <value type="string" value="TeamViewer"/>
+        <value type="string" value="Qoob Music Player"/>
+        <value type="string" value="polychromatic-tray-applet"/>
+        <value type="string" value="SiriKali"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="transmission"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="CopyQ_copyq"/>
+      </property>
+      <property name="hidden-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (68%)"/>
+        <value type="string" value="transmission"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (61%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (58%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (66%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (72%)"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="shutter"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (70%)"/>
+        <value type="string" value="notes"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (59%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (60%)"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (57%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (62%)"/>
+        <value type="string" value="discord-bot-client"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (71%)"/>
+        <value type="string" value="wi-fi network connection “tante sue” active: sortilege (73%)"/>
+      </property>
+      <property name="hide-new-items" type="bool" value="true"/>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="22"/>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Chromium;Code;Discord Bot Client;firefox;Microsoft Edge;spotify;vlc;waterfox;zen-alpha"/>
+      <property name="known-players" type="string" value="Chromium;Code;Discord Bot Client;firefox;maerio epic sigma;Microsoft Edge;spotify;vlc;waterfox;zen-alpha"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -120,24 +173,29 @@
       <property name="show-button-title" type="bool" value="true"/>
       <property name="button-title" type="string" value="Miaou :3"/>
       <property name="recent" type="array">
-        <value type="string" value="vesktop.desktop"/>
+        <value type="string" value="filezilla.desktop"/>
+        <value type="string" value="com.obsproject.Studio.desktop"/>
         <value type="string" value="foobar2000.desktop"/>
         <value type="string" value="org.mozilla.Thunderbird.desktop"/>
-        <value type="string" value="xfce4-notes.desktop"/>
-        <value type="string" value="org.freedesktop.Piper.desktop"/>
-        <value type="string" value="m64py.desktop"/>
-        <value type="string" value="spotify.desktop"/>
-        <value type="string" value="code.desktop"/>
-        <value type="string" value="org.eu.casualsnek.onthespot.desktop"/>
-        <value type="string" value="signal-desktop.desktop"/>
+        <value type="string" value="shutter.desktop"/>
+        <value type="string" value="org.kde.kdeconnect.sms.desktop"/>
+        <value type="string" value="opentabletdriver.desktop"/>
+        <value type="string" value="picom.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
+        <value type="string" value="Waydroid.desktop"/>
       </property>
       <property name="favorites" type="array">
+        <value type="string" value="steam.desktop"/>
         <value type="string" value="steam-native.desktop"/>
         <value type="string" value="vesktop.desktop"/>
         <value type="string" value="org.prismlauncher.PrismLauncher.desktop"/>
         <value type="string" value="signal-desktop.desktop"/>
         <value type="string" value="nvidia-settings.desktop"/>
+        <value type="string" value="foobar2000.desktop"/>
+        <value type="string" value="org.mozilla.Thunderbird.desktop"/>
       </property>
+      <property name="menu-width" type="int" value="500"/>
+      <property name="menu-height" type="int" value="600"/>
     </property>
     <property name="clipman" type="empty">
       <property name="settings" type="empty">

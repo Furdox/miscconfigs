@@ -1,7 +1,0 @@
-2024/09/08-20:33:06.895 19928 Reusing MANIFEST /home/furdox/.config/vesktop/sessionData/WebStorage/4/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/09/08-20:33:06.895 19928 Recovering log #24
-2024/09/08-20:33:06.895 19928 Reusing old log /home/furdox/.config/vesktop/sessionData/WebStorage/4/IndexedDB/indexeddb.leveldb/000024.log 
-2024/09/08-20:33:06.928 1993d Level-0 table #30: started
-2024/09/08-20:33:06.932 1993d Level-0 table #30: 671 bytes OK
-2024/09/08-20:33:06.938 1993d Delete type=0 #24
-2024/09/08-20:33:06.938 19928 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Shades-of-purple"/>
-    <property name="IconThemeName" type="string" value="Windows-XP-3.1"/>
+    <property name="ThemeName" type="string" value="simplewaita"/>
+    <property name="IconThemeName" type="string" value="Windows-8-master"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -14,7 +14,7 @@
     <property name="EnableInputFeedbackSounds" type="bool" value="true"/>
   </property>
   <property name="Xft" type="empty">
-    <property name="DPI" type="int" value="85"/>
+    <property name="DPI" type="int" value="96"/>
     <property name="Antialias" type="int" value="1"/>
     <property name="Hinting" type="empty"/>
     <property name="HintStyle" type="empty"/>
@@ -23,7 +23,7 @@
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="empty"/>
     <property name="ColorPalette" type="empty"/>
-    <property name="FontName" type="string" value="Rubik Semi-Bold 14"/>
+    <property name="FontName" type="string" value="Tahoma 10"/>
     <property name="MonospaceFontName" type="string" value="NotoSansM Nerd Font Mono Medium Semi-Condensed 15"/>
     <property name="IconSizes" type="empty"/>
     <property name="KeyThemeName" type="empty"/>
@@ -42,7 +42,7 @@
     <property name="WindowScalingFactor" type="int" value="1"/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="SyncThemes" type="bool" value="true"/>
-    <property name="LastCustomDPI" type="int" value="85"/>
+    <property name="SyncThemes" type="bool" value="false"/>
+    <property name="LastCustomDPI" type="int" value="96"/>
   </property>
 </channel>

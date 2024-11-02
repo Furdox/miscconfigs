@@ -1,0 +1,43 @@
+:root {
+    --winbarcolor: linear-gradient(to right, #f20, #f40, #f90, #fa0);
+    --boxbg: #088a;
+    --windowsborder: #0ffa #00fa #00fa #0ffa;
+    --windowsborderred: #ff6565 #ff0000 #ff0000 #ff6565;
+    --buttonbg1: rgba(255, 0, 180, 0.4);
+    --buttonbg1hover: rgba(255, 40, 210, 0.4);
+    --buttonbg2: #ff0;
+    --buttontextcolor1: #ff0;
+    --buttontextcolor2: red;
+    --buttontextcolor1hover: #ff5;
+    --buttontextcolor2hover: #f55;
+    --buttonbordercolor1: #f60;
+    --buttonbordercolor1hover: #f96;
+    --buttonbordercolor2: red;
+    --pfpbordercolor: var(--inputbordercolor);
+    --inputbg: rgba(109, 0, 186, 0.6);
+    --inputbordercolor: rgba(255, 0, 230, 0.6);
+    --selectedbgcolor: rgba(82, 0, 137, 0.6);
+    --selectedbordercolor: rgba(194, 0, 130, 0.6);
+    --hoverbgcolor: rgba(128, 0, 219, 0.6);
+    --hoverbordercolor: rgba(255, 0, 230, 0.6);
+    --activebgcolor: rgba(194, 0, 130, 0.6);
+    --activebordercolor: rgba(200, 0, 200, 0.6);
+    --embedbg: #50f9;
+    --embedborder: rgb(30, 62, 0);
+    border-radius: 0 !important;
+}
+a{
+	color: #0ff;
+}
+a:hover {
+    color: #f00;
+}
+a.link_c91bad:active {
+    color: #f0f
+}
+
+
+
+window {
+	background-color: var(--boxbg);
+}

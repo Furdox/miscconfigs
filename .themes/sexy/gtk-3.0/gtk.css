@@ -1,0 +1,231 @@
+:root {
+    --winbarcolor: linear-gradient(to right, #f20, #f40, #f90, #fa0);
+    --boxbg: #088a;
+    --windowsborder: #0ffa #00fa #00fa #0ffa;
+    --windowsborderred: #ff6565 #ff0000 #ff0000 #ff6565;
+    --buttonbg1: #ff00b466;
+    --buttonbg1hover: rgba(255, 40, 210, 0.4);
+    --buttonbg2: #ff0;
+    --buttontextcolor1: #ff0;
+    --buttontextcolor2: red;
+    --buttontextcolor1hover: #ff5;
+    --buttontextcolor2hover: #f55;
+    --buttonbordercolor1: #f60;
+    --buttonbordercolor1hover: #f96;
+    --buttonbordercolor2: red;
+    --pfpbordercolor: var(--inputbordercolor);
+    --inputbg: rgba(109, 0, 186, 0.6);
+    --inputbordercolor: rgba(255, 0, 230, 0.6);
+    --selectedbgcolor: rgba(82, 0, 137, 0.6);
+    --selectedbordercolor: rgba(194, 0, 130, 0.6);
+    --hoverbgcolor: rgba(128, 0, 219, 0.6);
+    --hoverbordercolor: rgba(255, 0, 230, 0.6);
+    --activebgcolor: rgba(194, 0, 130, 0.6);
+    --activebordercolor: rgba(200, 0, 200, 0.6);
+    --embedbg: #50f9;
+    --embedborder: rgb(30, 62, 0);
+    border-radius: 0 !important;
+}
+label {
+    color: white;
+}
+a, linkbutton, link, hypertext {
+	color: #0ff;
+}
+a:hover, linkbutton:hover, link:hover, hypertext:hover {
+    color: #f00;
+}
+a:active, linkbutton:active, link:active, hypertext:active {
+    color: #f0f
+}
+
+
+
+window {
+	background-color: #008888;
+}
+
+button {
+	background-color: #ff00bb;
+	color: #ffff00;
+	border: 2px outset #ff6600;
+}
+button:hover {
+	background-color: #cc0099;
+	color: #aaaa00;
+	border: 2px outset #ff4400;
+}
+button:active {
+	background-color: #aa00cc;
+	color: #aaaaaa;
+	border: 2px inset #ee3300;
+}
+
+label {
+    color: white;
+}
+
+entry {
+    background-color: #90f;
+    color: white;
+    border: 2px outset #c0f;
+    padding: 4px;
+    border-radius: 0px;
+}
+entry:focus {
+    border-color: #9500e0;
+    border: 2px inset #c0f;
+}
+
+notebook {
+    background-color: #00a;
+    border: 2px outset #00f;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+notebook tab {
+    background-color: #f00;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 2px outset #00f;
+    border-radius: 0px;
+}
+
+notebook tab:hover {
+    background-color: #909;
+    border: 2px outset #08f;
+}
+
+notebook tab:checked {
+    background-color: #00f;
+    color: black;
+    font-weight: bold;
+}
+
+notebook > stack {
+    border: 2px outset #0aa;
+    padding: 5px;
+    border-radius: 0px;
+    background-color: #00c;
+}
+/*
+list {
+    background-color: #0ab;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+list row {
+    border: 2px solid #f90;
+    border-radius: 0px;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #030;
+}
+
+list row:hover {
+    background-color: #33f;
+    color: white;
+}
+
+treeview {
+    border-spacing: 2px;
+    background-color: #282c34;
+}
+
+treeview row {
+    border: 2px solid #4a90e2;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #333;
+}
+
+treeview row:selected {
+    background-color: #4a90e2;
+    color: white;
+}
+*/
+
+scrollbar {
+    background-color: #0ff;
+    color: black;
+    width: 10px;
+    border-radius: 0px;
+}
+scrollbar thumb {
+    background-color: #f9f;
+    width: 8px;
+    height: 12px;
+    border: 1px outset #00f;
+}
+scrollbar thumb:hover {
+    background-color: #f3f;
+}
+scrollbar thumb:active {
+    background-color: #93f;
+    width: 8px;
+    border: 1px inset #00f;
+}
+scrollbar trough {
+    background-color: #0ff;
+}
+
+scrollbar button.up {
+    width: 12px; /* Width of the button */
+    height: 12px; /* Height of the button */
+    icon: "↑"; /* Optional icon for the button */
+}
+scrollbar button.down {
+    width: 12px; /* Width of the button */
+    height: 12px; /* Height of the button */
+    icon: "↓"; /* Optional icon for the button */
+}
+
+/* Main ComboBox styling */
+combobox {
+    background-color: #0aa;
+    color: white;
+    border: 2px outset #00f;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+/* Dropdown button */
+combobox button {
+    background-color: yellow;
+    border: 2px outset red;
+    border-radius: 0px;
+    color: red;
+}
+
+/* Popup menu (the dropdown) styling */
+combobox popup {
+    background-color: #0ff;
+    color: black;
+    padding: 0px;
+}
+
+/* Item styling in the dropdown */
+combobox popup menuitem {
+    background-color: #222; /* Background color for menu items */
+    color: #e6e6e6; /* Text color for menu items */
+    padding: 5px; /* Padding around menu items */
+}
+
+/* Hover state for menu items */
+combobox popup menuitem:hover {
+    background-color: #4a90e2; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Selected item style */
+combobox popup menuitem:selected {
+    background-color: #357ab8; /* Change background for selected item */
+    color: #fff; /* Change text color for selected item */
+}
+
+

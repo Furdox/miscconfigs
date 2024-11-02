@@ -36,4 +36,5 @@
   <property name="background-image-file" type="string" value="/home/furdox/Downloads/GIU0lrqW8AAr8oF.jpg"/>
   <property name="background-image-style" type="string" value="TERMINAL_BACKGROUND_STYLE_FILLED"/>
   <property name="background-image-shading" type="double" value="0.94999999999999996"/>
+  <property name="shortcuts-no-mnemonics" type="bool" value="true"/>
 </channel>
